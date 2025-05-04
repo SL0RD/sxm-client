@@ -42,8 +42,8 @@ OPTION_QUALITY = typer.Option(
     QualitySize.LARGE_256k,
     "--quality",
     "-q",
-    help="Sets stream qualuty.",
-    envvar="SXM_REGION",
+    help="Sets stream quality.",
+    envvar="SXM_QUALITY",
 )
 OPTION_PRECACHE = typer.Option(
     True,
